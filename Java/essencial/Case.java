@@ -6,9 +6,7 @@ public class Case {
     public static void main(String[] args) {
         do {
             System.out.println();
-
             Scanner entrada = new Scanner(System.in);
-
             System.out.print(": ");
             String letra = entrada.nextLine();
 
@@ -23,7 +21,6 @@ public class Case {
                     System.out.println("Escolha uma letra entre 'a' e 'd' imediatamente!!");
                     System.out.print(": ");
                     String letra2 = entrada.nextLine();
-
                     switch (letra2) {
                         case "a" -> System.out.println("1");
                         case "b" -> System.out.println("2");
