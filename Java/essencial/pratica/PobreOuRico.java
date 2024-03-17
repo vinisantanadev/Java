@@ -1,4 +1,4 @@
-package pratica;
+package essencial.pratica;
 import java.util.Scanner;
 
 public class PobreOuRico {

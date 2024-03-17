@@ -1,7 +1,5 @@
-package pratica;
-
+package essencial.pratica;
 import java.util.Scanner;
-
 public class Fibonacci {
     public static void main(String[] args) {
         boolean rodar = true;
@@ -9,6 +7,7 @@ public class Fibonacci {
             fibonacci();
         } while (rodar == true);
     }
+//}
 
 
 
@@ -28,11 +27,9 @@ public class Fibonacci {
 
 
 
-
-    
 //  -------------------------------------------------------------
 //  criando a função fibonacci:
-    static void fibonacci() {
+    static int fibonacci() {
         for (int linha = 1; linha <= 33; linha++) {
             System.out.print('-');
         }
