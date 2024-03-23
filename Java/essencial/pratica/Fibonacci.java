@@ -58,5 +58,6 @@ public class Fibonacci {
                 numero1 = fibonacci;
             }
         }
+    return fibonacci();
     }
 }
