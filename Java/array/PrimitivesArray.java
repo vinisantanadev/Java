@@ -3,7 +3,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Introduction {
+public class PrimitivesArray {
     static int loop;
     static Scanner entrada = new Scanner(System.in);
 //  não é possivel armazenar valores de tipos diferentes em um mesmo array
@@ -20,13 +20,13 @@ public class Introduction {
             System.out.print('-');
         } // par layout apenas
         System.out.println("");
+        System.out.println("Agora  digite os números:");
         for (int printar : numeros) {
-//     *for muito louco para loopar arrays!!!
             System.out.print(": ");
             printar = entrada.nextInt();
 //          para alocar numeros que o usuario digitar no array
         }
         System.out.println(Arrays.toString(numeros));
-        String[] conjunto2 = {"Vinicius", "Cordeiro", "Santana"};
+        // * esta acima é a melhor forma de printar arrays
     }
 }
