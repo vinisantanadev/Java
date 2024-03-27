@@ -3,6 +3,8 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// * Array serve basicmanete para armazenar vários valores em uma só variável
+
 public class PrimitivesArray {
     static int loop;
     static Scanner entrada = new Scanner(System.in);
