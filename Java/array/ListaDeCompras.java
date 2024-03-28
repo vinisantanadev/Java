@@ -49,7 +49,7 @@ public class ListaDeCompras {
             } else if (opcao == 2) {
                 System.out.println("index do item que deseja editar" + "\n" + ": ");
                 editar = entrada.nextInt();
-                System.out.println("digite item substituto:" + "\n" + ": ");
+                System.out.println("digite item substituto, aperte espaço:" + "\n" + ": ");
                 itens.set(editar, adicionar);
             } else {
                 adicionar = "x";
