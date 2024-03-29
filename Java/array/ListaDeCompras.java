@@ -13,11 +13,14 @@ public class ListaDeCompras {
     // declarando as variaveis, scanner e arrays
     public static void main(String[] args) {
         do {
-            System.out.print("\n" +
-            "Bem vindo à sua lista de compras!" + "\n" +
-            "Digite o que deseja comprar, aperte espaço;" + "\n" +
-            "Digite a quantidade, aperte enter;" + "\n" +
-            "Quando tiver pronto digite X." + "\n\n");
+            System.out.print("""
+                            
+                            Bem vindo \u00e0 sua lista de compras!
+                            Digite o que deseja comprar, aperte espa\u00e7o;
+                            Digite a quantidade, aperte enter;
+                            Quando tiver pronto digite X.
+                            
+                            """);
 //          o '\n' serve pra quebrar linha, e gosto de deixar separado do resto da string
             while (!adicionar.equals("x") && !adicionar.equals("X")) {
                 System.out.print(": ");
@@ -42,14 +45,19 @@ public class ListaDeCompras {
             for (loop = 0; loop < 33; loop++) {
                 System.out.print('-'); }
 //          apenas para criar uma linha
-            System.out.print("\n" + "editar tudo: 1 | editar item: 2 | fechar: 3 | opção: ");
+            System.out.print("\neditar tudo: 1 | editar item: 2 | fechar: 3 | opção: ");
             opcao = entrada.nextInt();
             if (opcao == 1) {
                 adicionar = "loopar";
             } else if (opcao == 2) {
-                System.out.println("index do item que deseja editar" + "\n" + ": ");
+                System.out.println("index do item que deseja editar: ");
                 editar = entrada.nextInt();
-                System.out.println("digite item substituto, aperte espaço:" + "\n" + ": ");
+                System.out.println("""
+                                digite item substituto, aperte espaço
+                                digite a quantidade, aperte enter
+                                : 
+                                """);
+                adicionar = entrada.nextLine();
                 itens.set(editar, adicionar);
             } else {
                 adicionar = "x";
