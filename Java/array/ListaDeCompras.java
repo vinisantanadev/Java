@@ -50,15 +50,14 @@ public class ListaDeCompras {
             if (opcao == 1) {
                 adicionar = "loopar";
             } else if (opcao == 2) {
-                System.out.println("index do item que deseja editar: ");
-                editar = entrada.nextInt();
                 System.out.println("""
-                                digite item substituto, aperte espaço
-                                digite a quantidade, aperte enter
-                                : 
-                                """);
-                adicionar = entrada.nextLine();
-                itens.set(editar, adicionar);
+                                    index do item que deseja editar: 
+                                    digite item substituto, aperte espaço
+                                    digite a quantidade, aperte enter
+                                    """);
+                editar = entrada.nextInt();
+                adicionar = entrada.next();
+                itens.set(0, adicionar);
             } else {
                 adicionar = "x";
             }
