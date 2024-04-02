@@ -1,4 +1,4 @@
-package POO;
+package POO.BolaDeFutebol;
 
 import java.util.Scanner;
 
@@ -39,9 +39,9 @@ public class BolaDeFutebol {
     } // se é um método deve abrir e fechar parenteses após o mesmo (obvio)
     void analizar() {
         System.out.printf("""
-            
-            A cor da bola é %s
-            Há um brasão que mostra a marca: %s
+
+                A cor da bola é %s
+                Há um brasão que mostra a marca: %s
 
         """, cor, marca);
     }

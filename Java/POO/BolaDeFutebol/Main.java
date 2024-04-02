@@ -1,4 +1,4 @@
-package POO;
+package POO.BolaDeFutebol;
 import java.util.Scanner;
 
 public class Main {
