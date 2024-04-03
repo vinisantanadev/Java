@@ -11,7 +11,7 @@ public class ObjectsArray {
 //          System.out.print(": ");
 //          loop = entrada.next();
 //      } // para pegar os nomes
-//      mas acho que nao funciona
+//      mas acho que nao funciona com string
         for (int loop = 0; loop < nomes.length; loop++) {
             System.out.print(": ");
             nomes[loop] = entrada.next();

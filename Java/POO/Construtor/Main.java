@@ -1,13 +1,15 @@
 package POO.Construtor;
-
+// essencial de metodo construtor e overload constructors
 public class Main {
     static String nomeHumano = "artemis";
-    static String generoHumano = "não-binário";
     static int idadeHumano = 16;
     static double alturaHumano = 1.69;
     static double pesoHumano = 56.6;
     public static void main(String[] args) {
-        Humano meuHumano1 = new Humano(nomeHumano, generoHumano, idadeHumano, alturaHumano, pesoHumano);
+        Humano meuHumano1 = new Humano(nomeHumano, idadeHumano, alturaHumano, pesoHumano);
+//      *como eu fiz um 'overload constructor', ou seja como na classe Humano,
+//      tem dois construtores com o mesmo nome, e um ta sem o atributo genero,
+//      eu posso fazer um humano sem genero, ele só vai ignorar;
 //      voce pode atribuir valores de variaveis (ou seja, pode pedir pro usuário imputar) ou,
         Humano meuHumano2 = new Humano("lua", "feminino", 19, 1.79, 69);
 //      você pode atribuir valores de atributos diretamente para um objeto!
