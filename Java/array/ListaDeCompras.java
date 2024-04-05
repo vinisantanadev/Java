@@ -16,7 +16,7 @@ public class ListaDeCompras {
             System.out.print("""
                             
                             Bem vindo \u00e0 sua lista de compras!
-                            Digite o que deseja comprar, aperte espa\u00e7o;
+                            Digite o que deseja comprar, aperte espaço;
                             Digite a quantidade, aperte enter;
                             Quando tiver pronto digite X.
                             
