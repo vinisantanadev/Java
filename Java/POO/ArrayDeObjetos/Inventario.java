@@ -1,7 +1,5 @@
 package POO.ArrayDeObjetos;
 import java.util.ArrayList;
-import javax.smartcardio.Card;
-
 public class Inventario {
     static int loop;
     static int numero_de_itens = 0;
